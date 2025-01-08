@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 <body>
@@ -10,20 +11,23 @@
     <div class="header">
         <div>Header logo</div>
 
-        <div class="links">
-            <a>header link 1</a>
-            <a>header link 2</a>
-            <a>header link 3</a>
-        </div>
+        <ul class="links">
+            <li><a>header link 1</a></li>
+            <li><a>header link 2</a></li>
+            <li><a>header link 3</a></li>
+        </ul>
     </div>
 
     <div class="top">
 
-        <div class="info">
-            <div class="top-heading">This website is awesome</div>
-            <p>This website has some subtext that goes here under the main title. It is smaller in font and the color 
-                is lower contrast.
-            </p>
+        <div class="top-info">
+            <div class="left-side">
+                <div class="top-heading">This website is awesome</div>
+                <div class="top-text">This website has some subtext that goes here under the main title. It is smaller in font and the color 
+                    is lower contrast.
+                </div>
+            </div>
+
             <button class="top-butt">Sign up</button>
         </div>
 
@@ -34,26 +38,49 @@
     <div class="middle">
         <div class="mid-heading">Some random information.</div>
 
-        <div class="container">
-            <div class="info">
+        <div class="mid-container">
+            <div class="mid-info">
                 <div class="pic"></div>
                 <div class="text">This is some subtext under an illustration or image</div>
             </div>
-            <div class="info">
+            <div class="mid-info">
                 <div class="pic"></div>
                 <div class="text">This is some subtext under an illustration or image</div>
             </div>
-            <div class="info">
+            <div class="mid-info">
                 <div class="pic"></div>
                 <div class="text">This is some subtext under an illustration or image</div>
             </div>
-            <div class="info">
+            <div class="mid-info">
                 <div class="pic"></div>
                 <div class="text">This is some subtext under an illustration or image</div>
             </div>
         </div>
     </div>
 
+    <div class="bottom">
+        <div class="quote">
+            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling 
+            up space, or maybe people will actually read it. Who knows? All I know is that it looks nice
+        </div>
+        <div class="author">Thor, God of Thunder</div>
+    </div>
+
+    <div class="call">
+
+        <div class="call-container">
+            <div class="call-heading">
+                Call to action! It's time!
+            </div>
+            <div class="call-text">
+                Sign up for our product by clicking that button right over there!
+            </div>
+        </div>
+
+        <button class="bottom-butt">
+            Sign up
+        </button>
+    </div>
 
 </body>
 </html>
