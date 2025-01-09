@@ -30,6 +30,7 @@ ul {
     justify-content: center;
     gap: 100px;
     padding: 50px;
+    height: 210px;
 }
 .top-heading {
     font-size: 32px;
@@ -85,6 +86,7 @@ ul {
 .middle {
     padding: 20px;
     padding-bottom: 50px;
+    height: 250px;
 }
 
 .pic {
@@ -100,4 +102,61 @@ ul {
     max-width: 150px;
     font-weight: 100;
     font-size: 12px;
+}
+
+.bottom {
+    background-color: #e5e7eb;
+    height: 250px;
+    padding: 20px;
+}
+
+.quote {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    padding: 50px 300px 10px 300px;
+    text-align: left;
+    max-width: 900px;
+}
+
+.author {
+    text-align: right;
+    margin-right: 375px;
+    font-weight: bold;
+}
+
+.call {
+    padding: 70px;
+
+}
+
+.bottom-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    gap: 150px; 
+    margin-left: 230px;
+    margin-right: 230px;
+    padding: 32px;
+}
+
+.call-heading {
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+.call-text {
+    font-weight: 100;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+}
+
+.bottom-butt {
+    border-color: white;
+    border-radius: 25px;
+    color: white;
+    background-color: #3882f6;
 }
